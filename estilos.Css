@@ -1,0 +1,197 @@
+
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ytimg{
+    fill: red;
+    height: 50px;
+}
+
+.telapreta:hover .iconesbaixo,.telapreta:hover .iconesmeio, .telapreta:hover .iconescima{
+    visibility: visible;
+} 
+
+
+.yteescrita{
+    display: flex;
+    align-items: center;   
+    gap: 5px; 
+    height: 47px;
+}
+
+.telapreta{
+    position: relative;
+    background-color: black;
+    height: 370px;
+    width: 800px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 3px solid red;
+
+}
+.iconesbaixo,.iconescima,.iconesmeio{
+    visibility: hidden; 
+}
+
+.iconescima{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    fill: white;
+    height: 20px;
+    width: 30px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    fill: white;
+    height: 20px;
+    width: fit-content;
+    
+}
+
+.iconesmeio{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    fill: white;    
+    gap: 10px;
+}
+
+.foward,.backward,.play{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+}
+
+.btbackward,.btfoward{
+    height: 50px;
+    width: 50px;
+}
+
+.btplay{
+    height: 60px;
+    width: 60px;
+}
+
+
+.iconesbaixo{
+    position: absolute;
+    right: 30px;
+    bottom: -3px;
+    fill: white;
+    width: 30px;
+}
+
+
+.iconesbaixo svg:hover, .iconescima svg:hover, .iconesmeio svg:hover{
+    cursor: pointer;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.iconescima svg{
+    height: 50px;
+}
+
+
+.btengrenagem{
+    background-color: transparent;
+    border: none;
+}
+
+.bttv{
+    background-color: transparent;
+    border: none;
+}
+
+.btlegenda,.btbackward,.btplay,.btfoward{
+    background-color: transparent;
+    border: none;
+}
+
+
+.btexpandir{
+    background-color: transparent;
+    border: none;
+}
+
+.bticonesbaixo{
+    fill: white;
+    width: 30px;
+    height: 30px;
+}
+
+.iconesbaixo svg{
+    width: 30px;
+    height: 30px;
+}
+
+.likeecurtidas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 30px;
+    padding: 10px;
+    gap: 10px;
+    margin: 10px;
+}
+
+
+.thevoice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.like{
+    width: 25px;
+    height: 30px;
+    fill: white;
+}
+
+.curtidas{
+    color: white;
+}
+
+.iconescima svg{
+    height: 20px;
+    width: 20px;
+}
+
+.iconesmeio svg{
+    height: 20px;
+    width: 20px;
+    padding-right: 30px;
+}
+
+.iconesmeio .play svg{
+    width: 30px;
+    height: 30px;
+}
+
+.iconesbaixo svg{
+    height: 20px;
+    width: 20px;
+}
+
+.iconescima svg, .iconesmeio svg, .iconesbaixo svg{
+    padding: 10px;
+}
